@@ -2,7 +2,7 @@
 
 - Create a project in Google Cloud Platform.
 - Install `gcloud` command line tool, and 'gcloud auth login' to authenticate.
-_ Enable billing for your project.
+- Enable billing for your project.
 - Make sure to enable Compute Engine API in your project.
 - Apply the Limit increase for the GPU quota in your project.
     - Go to Google Cloud Console -> Compute Engine -> VM Instances.
@@ -13,6 +13,9 @@ _ Enable billing for your project.
 
 # Steps
 1. Create a VM instance with the following command:
+```bash
+terraform init
+```
 ```bash
 terraform apply
 ```
